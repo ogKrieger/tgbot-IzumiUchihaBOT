@@ -4,7 +4,7 @@ A modular telegram Python bot running on python3 with an sqlalchemy database.
 Originally a simple group management bot with multiple admin features, it has evolved into becoming a basis for modular
 bots aiming to provide simple plugin expansion via a simple drag and drop.
 
-Join our [News Channel](https://t.me/MinjiNews) if you want to stay in the loop about new features or
+Join our [News Channel](https://t.me/TrippyDrugsManagerNews) if you want to stay in the loop about new features or
 announcements.
 
 Note to maintainers that all schema changes will be found in the commit messages, and its their responsibility to read any new commits.
@@ -39,9 +39,9 @@ from tg_bot.sample_config import Config
 
 
 class Development(Config):
-    OWNER_ID = 254318997  # my telegram ID
-    OWNER_USERNAME = "SonOfLars"  # my telegram username
-    API_KEY = "your bot api key"  # my api key, as provided by the botfather
+    OWNER_ID = 5461562246  # my telegram ID
+    OWNER_USERNAME = "strictlybeefs"  # my telegram username
+    API_KEY = "5771729048:AAFNlvyOzZmhujIDbKz0t8PaK4koXTd6HKY"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
     USE_MESSAGE_DUMP = True
